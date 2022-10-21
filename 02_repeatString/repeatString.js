@@ -1,6 +1,8 @@
-let string = 'hey';
-let num = 3;
+let string = '';
+let num = 5;
 const repeatString = function(string, num) {
+    if(num<0)
+    return 'ERROR';
     let result = '';
     for(let i = 0;i < num; i++){
         result = result + string;
